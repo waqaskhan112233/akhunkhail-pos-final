@@ -1,0 +1,6 @@
+import { createClient } from "@supabase/supabase-js";
+
+const supabaseUrl = "https://jtnihwefmxgpbyoaghgf.supabase.co";
+const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."; // Yahan apna Supabase ka actual anon/public API key paste karo
+
+export const supabase = createClient(supabaseUrl, supabaseKey);
